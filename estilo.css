@@ -1,1 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
+
+:root{
+
+    --cor-de-fundo: #001e40;
+    --cor-de-texto: #ffffff ;
+    --fundo-senha: #faf408;
+    --fundo-texto: #00ff85;
+    --borda: #0075ff;
+    --tipo-fonte: "Raleway", sans-serif;
+
+
+
+}
+
+*{
+    font-size: 400;
+}
+
+
+body{
+
+    background-color: pink;
+    text-align: center;
+    color: var(--cor-de-texto);
+    font-family: var(--tipo-fonte);
+
+}
+
+.titulo-principal{
+
+    font-weight: 700;
+    font-style: normal;
+    font-optical-sizing: auto;
+    font-family: "Raleway", sans-serif;
+
+}
+
+.subtitulo{
+    font-family: 24px;
+}
+
+.conteudo-titulo{
+    text-align: center;
+    margin-top: 80px;
+}
+
+.parametro{
+
+    background-color: ;
+    border: 2px solid var(--borda);
+    margin-top: 32px;   
+    padding: 24px;
+}
+
+.conteudo{
+
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.conteudo-senha{
+
+    margin-top: 80px;
+    background-color: powderblue;
+    padding: 24px;
+    border-bottom: 6px solid var(--borda);
+}
+
+.parametro--coluna-senha{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#campo-senha{
+
+    background-color: var(--cor-de-texto);
+    border: none;
+    color: var(--cor-de-texto);
+    font-size: 40px;
+    margin-left: 10px;
+    width: 70%;
+}
+
+#campo-senha:focus{
+    outline: none;
+    background-color: var(--fundo-texto);
+    border: none;
+    color: var(--cor-de-texto);
+    font-size: 40px;
+    margin-left: 20px;
+    width: 70%;
+}
+
+.parametro--coluna-senha{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.parametro--senha{
+    width: 50%;
+    margin: 0 auto;
+}
+
+
+@media screen and (min-width: 768px){
+
+    .parametro--coluna-senha{
+        flex-direction: row;
+    }
+} 
+    
