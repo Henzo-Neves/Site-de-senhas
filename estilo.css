@@ -21,7 +21,7 @@
 
 body{
 
-    background-color: pink;
+    background-color: rgb(0, 0, 0);
     text-align: center;
     color: var(--cor-de-texto);
     font-family: var(--tipo-fonte);
