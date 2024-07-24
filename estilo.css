@@ -95,6 +95,16 @@ body{
     width: 70%;
 }
 
+.parametro-senha-botão{
+
+    background-color: (--cor-de-fundo);
+    color:var(--cor-de-texto);
+    border: 2px solid var(--borda);
+    padding: 24px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
 .parametro--coluna-senha{
     display: flex;
     flex-direction: column;
