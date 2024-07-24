@@ -108,6 +108,7 @@ body{
 
 .barra{
     background-color: var(--fundo-senha);
+    background-color:#ffffff
     height: 30px;
     width: 100%;
 }
