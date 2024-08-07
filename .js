@@ -26,3 +26,6 @@ function aumentarTamanho() {
     numeroSenha.textContent = tamanhoSenha
 }
 
+function geraSenha () {
+    
+}
