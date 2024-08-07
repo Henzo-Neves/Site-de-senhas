@@ -36,3 +36,4 @@ function geraSenha () {
 
         console.log(senha)
 }
+    campoSenha.value = senha
