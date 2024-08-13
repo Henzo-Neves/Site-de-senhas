@@ -105,6 +105,11 @@ body{
     cursor: pointer;
 }
 
+.parametro-senha-botoes{
+    display: flex;
+    justify-content: center;
+}
+
 .parametro--coluna-senha{
     display: flex;
     flex-direction: column;
