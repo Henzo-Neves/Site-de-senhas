@@ -13,6 +13,7 @@ let minuscula = "abcdefghijklmnopqrstuvwxyz"
 let numero = "0123456789"
 let simbolos = "!?@#$%&*"
 
+geraSenha()
 console.log(maiuscula);
 
 function diminuirTamanho() {
