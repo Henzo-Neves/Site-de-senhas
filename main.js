@@ -38,19 +38,19 @@ function aumentarTamanho() {
 function geraSenha () {
     let alfabeto = ""
     let senha = ""
-    if(checkbox[0].cheked){
+    if(checkbox[0].checked){
         alfabeto = alfabeto + maiuscula
     }
 
-    if(checkbox[1].cheked){
+    if(checkbox[1].checked){
         alfabeto = alfabeto + minuscula
     }
 
-    if(checkbox[2].cheked){
+    if(checkbox[2].checked){
         alfabeto = alfabeto + numero
     }
 
-    if(checkbox[3].cheked){
+    if(checkbox[3].checked){
         alfabeto = alfabeto + simbolos
     }
 
